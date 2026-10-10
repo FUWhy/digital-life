@@ -1,0 +1,22 @@
+# MkDocs 构建产物
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 内部教学内容不公开，仅保留 index.md 占位避免构建报错
+docs/private/*
+!docs/private/index.md
+
+# 临时截图
+screenshot*.png

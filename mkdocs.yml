@@ -1,0 +1,48 @@
+site_name: 数字生活 · 从零开始
+site_description: 面向零基础成人的电脑与 AI 数字技能学习平台
+site_author: 家庭教学项目
+
+theme:
+  name: material
+  language: zh
+  font:
+    text: Noto Sans SC
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - 首页: index.md
+  - 电脑基础入门:
+      - public/index.md
+  - 内部教学区:
+      - private/index.md
+
+plugins:
+  - search:
+      lang: zh
