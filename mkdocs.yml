@@ -38,8 +38,9 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 电脑基础入门:
-      - public/index.md
+  - 课程目录: public/index.md
+  - 电脑基础:
+      - 第1课：认识桌面: public/01-电脑基础/01-认识桌面.md
   - 内部教学区:
       - private/index.md
 
